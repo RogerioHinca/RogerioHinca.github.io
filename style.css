@@ -1,0 +1,62 @@
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+    
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        color: coral;
+    }
+    .texto{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: red;
+        
+    }
+    
+    #logo{
+        width: 150px;
+        display: block;
+        margin-left: 200px;
+    }
+    #logo2{
+        width: 50px;
+        margin: 10px;
+        display: block;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .caixa{
+        width: 100px;
+        height: 20px;
+        border-radius: 30px;
+    }
+    .caixa1{
+        width: 100px;
+        height: 25px;
+        background-color: magenta;
+        color: bisque;
+        border-radius: 30px;
+        
+      
+    }
+    .caixa2{
+        width: 180px;
+        height: 20px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+</style>
